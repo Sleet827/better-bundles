@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "betterbundles",
+  "version": "${version}",
+  "name": "Better Bundles",
+  "description": "Remake of the original Better Bundles mod. Rather than making an unstackable item take up the whole bundle, this mod makes it so that an unstackable item only counts to one for the bundle's maximum item limit.",
+  "authors": [
+    "Sleet827"
+  ],
+  "contact": {
+    "sources": "https://github.com/Sleet837/better-bundles"
+  },
+  "license": "MMPLv2",
+  "icon": "assets/betterbundles/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.sleet.BetterBundles"
+    ]
+  },
+  "mixins": [
+    "betterbundles.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.24",
+    "minecraft": "~1.20.2",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
